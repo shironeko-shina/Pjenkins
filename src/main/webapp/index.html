@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenkins CI/CD Pipeline Project</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: #0f172a;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .container{
+            width:800px;
+            padding:40px;
+            border-radius:20px;
+            background:#1e293b;
+            box-shadow:0 0 30px rgba(0,0,0,0.4);
+            text-align:center;
+        }
+
+        h1{
+            color:#38bdf8;
+            margin-bottom:20px;
+            font-size:40px;
+        }
+
+        h2{
+            margin-bottom:20px;
+            color:#facc15;
+        }
+
+        p{
+            line-height:1.8;
+            margin-bottom:15px;
+        }
+
+        .info{
+            margin-top:30px;
+            background:#334155;
+            padding:20px;
+            border-radius:10px;
+            text-align:left;
+        }
+
+        .status{
+            margin-top:20px;
+            padding:15px;
+            background:#16a34a;
+            border-radius:10px;
+            font-weight:bold;
+        }
+
+        .footer{
+            margin-top:30px;
+            font-size:14px;
+            color:#cbd5e1;
+        }
+
+        .pipeline{
+            margin-top:25px;
+            font-size:18px;
+            color:#38bdf8;
+        }
+
+        .pipeline span{
+            color:#f97316;
+            font-weight:bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Jenkins CI/CD Pipeline</h1>
+
+    <h2>Docker Deployment Success</h2>
+
+    <p>
+        This web application was automatically built and deployed
+        using Jenkins CI/CD Pipeline.
+    </p>
+
+    <div class="pipeline">
+        <span>GitHub</span>
+        →
+        <span>Jenkins</span>
+        →
+        <span>Maven Build</span>
+        →
+        <span>Docker</span>
+        →
+        <span>Tomcat Container</span>
+    </div>
+
+    <div class="info">
+        <p><strong>Project Name :</strong> Pjenkins</p>
+        <p><strong>Cloud Platform :</strong> AWS EC2</p>
+        <p><strong>CI/CD Tool :</strong> Jenkins</p>
+        <p><strong>Build Tool :</strong> Maven</p>
+        <p><strong>Container :</strong> Docker</p>
+        <p><strong>Repository :</strong> GitHub</p>
+    </div>
+
+    <div class="status">
+        Application Deployment Completed Successfully
+    </div>
+
+    <div class="footer">
+        DevOps Pipeline Project using Jenkins, Docker and GitHub
+    </div>
+
+</div>
+
+</body>
+</html>
